@@ -30,13 +30,13 @@ random_rotation = 1
 random_shuffle = 1
 
 resol = 200
-data_path = "/your/path/to/DL3DV-10K"
+data_path = "./output/"
 
-dummy_image_path = "/any/scene/from/DL3DV-10K/07d9f9724ca854fae07cb4c57d7ea22bf667d5decd4058f547728922f909956b/gaussian_splat/"
+dummy_image_path = "./demo/"
 
 folder_path_each = os.listdir(data_path)
 num_epochs = 200000
-save_path = "/your/save/path/"
+save_path = "./save/"
 
 bch_size = 200
 k_rendering_loss = 1000
